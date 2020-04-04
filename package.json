@@ -1,0 +1,20 @@
+{
+  "name": "automation-demo2-cypress-dashboard",
+  "version": "1.0.0",
+  "description": "cypress dasboard service demo",
+  "main": "index.js",
+  "scripts": {
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "cy:run:record:ds": "cypress run --record --key 50499af3-6db0-4646-8056-0fd769f4e0e0",
+    "cy:open": "cypress open"
+  },
+  "repository": "https://github.com/pradeepmisra81/automation-demo2-cypress-dashboard.git",
+  "author": "pradeep",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.3.0"
+  }
+}
